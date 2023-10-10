@@ -68,19 +68,25 @@
             background-color: transparent;
         }
 
-        @keyframes stark {
+     @keyframes stark {
             0% {
                 opacity: 0%;
                 transform: rotateY (90deg);
                 filter: blur(10px);
+                color: white;
             }
-
+            50% {
+                color: white;
+                opacity: 0.9;
+            }
             100% {
                 opacity: 1;
                 transform: rotateY (0deg);
                 filter: (0px);
+                color: bisque;
             }
         }
+
 
         h1 span:nth-child(1) {
             animation-delay: 1s;
